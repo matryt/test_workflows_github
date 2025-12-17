@@ -2,7 +2,7 @@ name: Build React App
 
 on:
   push:
-    branches: [ master, automated_build ]
+    branches: [ main, automated_build ]
 
 jobs:
   build:
